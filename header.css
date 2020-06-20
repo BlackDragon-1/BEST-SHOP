@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+/* 
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column; 
+*/
+
+body {
+  font-family:"Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif; /* wrócić do tego fonta*/
+}
+  
+.container {
+  width: 1352px;
+  margin: 0 auto;
+  
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+:root{
+  /* color: var(-); */
+  --color-primary: #08A6E4;
+--color-primary-shadow: rgba(7, 172, 230, .16);
+--color-redish:: #FB3B64;
+--color-green:#55DFB4;
+--color-black: #000000;
+--color-grey: #A5A5A5:
+--color-grey-light: #F7F7F7;
+--color-white: #FFFFFF;
+}
+a {
+  text-decoration: none;
+}
+/* :root {
+  --color-primary: #08a6e4;
+  --color-primary-shadow: rgba(7, 172, 230, 0.16);
+  --color-redish: #fb3b64;
+  --color-green: #55dfb4;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-grey: #a5a5a5;
+  --color-light-grey: #f7f7f7;
+  --font-raleway: "Raleway", sans-serif;
+  --font-open-sans: , sans-serif;
+
+  body {
+  font-family: var(--font-open-sans);
+}
+
+a {
+  text-decoration: none;
+}
+} */
+
+.container{
+  width: 1352px;
+  margin: 0 auto;
+}
+
+header{
+  height: 70px;
+  box-shadow: 0px 3px 6px #00000029;
+ 
+}
+.header-container{
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo{
+  font-size: 32px;
+  text-align: left;
+  color: #08A6E4;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+
+}
+.header-nav{
+  display: flex;
+  
+}
+
+.header-nav-link{
+   
+  color: #A5A5A5; 
+  font-family:  "Open Sans";
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3.28px;
+  text-transform: uppercase;
+  padding: 31px 8px 26px;
+  margin-right: 55px;
+  
+}
+.header-nav-link:hover{
+   
+  text-align: center;
+  font-family:  "Open Sans";
+  font-weight: bold;
+  letter-spacing: 3.28px;
+  color: #000000;
+  font-size: 11px;
+  cursor: pointer;
+  border-bottom: 4px solid #08A6E4;
+  padding: 31px 8px 26px;
+  
+}
+
